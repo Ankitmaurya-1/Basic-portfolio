@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+body {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-container {
+  background-color: #e4f9f5;
+  height: 135vh;
+}
+.top-cloud {
+  position: absolute;
+  top: 30px;
+  left: 800px;
+  height: 50px;
+  width: 40px;
+}
+.text-title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #66bfbf;
+  font-family: "Pangolin", cursive;
+  padding-top: 80px;
+  font-size: 7rem;
+}
+.text-title h2 {
+  font-size:3em;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: #66bfbf;
+  font-family: "Pangolin", cursive;
+}
+.bottom-cloud {
+  position: absolute;
+  right: 900px;
+  top: 300px;
+}
+#imgs {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  height: 450px;
+}
+
+.profile {
+  text-align: center;
+}
+.profile img {
+  height: 300px;
+  margin-top: 30px;
+}
+.profile h1 {
+  font-size: 5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #66bfbf;
+  font-family: "Pangolin", cursive;
+}
+.intro {
+  font-size: 25px;
+  color: #40514e;
+  width: 30%;
+  margin: auto;
+}
+p {
+  line-height: 1.5;
+}
+hr {
+  background-color: red;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.skills {
+  color: #66bfbf;
+  font-family: "Pangolin", cursive;
+}
+.skills h2 {
+  font-size: 6rem;
+  margin-bottom: 100px;
+}
+.coding h3 {
+  font-size: 2.8rem;
+  color: #66bfbf;
+  font-family: "Pangolin", cursive;
+}
+
+.coding p {
+  font-size: 2rem;
+  width: 100%;
+  line-height: 1.5;
+  color: #40514e;
+}
+
+.cat-gif {
+  margin-right: 10px;
+  float: left;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.typing img {
+  height: 250px;
+}
+.middle-container {
+  /* height: 100vh; */
+  margin: 100px 0;
+}
+
+.chillies-img {
+  margin-left: 30px;
+  width: 50%;
+}
+.hot-wings h3 {
+  color: #66bfbf;
+  font-family: "Pangolin", cursive;
+  font-size: 2.8rem;
+}
+
+.hot-wings p {
+  font-size: 1.5rem;
+  width: 100%;
+  line-height: 2;
+  color: #40514e;
+}
+.contact-me h2 {
+  margin-bottom: 35px;
+  font-size: 5rem;
+  color: #66bfbf;
+}
+.contact-me h3 {
+  color: #11999e;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.contact-message {
+  margin: 30px auto;
+  width: 40%;
+  font-size: 1.3rem;
+  color: #40514e;
+}
+.btn {
+  font-size: 2rem;
+  font-family: "Merriweather", serif; 
+  padding-bottom: 8px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  text-decoration: none;
+  font-family: "Pangolin", cursive;
+}
+a:hover {
+  color: #eaf6f6;
+  font-family: "Pangolin", cursive;
+}
+a {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+.bottom-container {
+  display: flex;
+  background-color: #66bfbf;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 30vh;
+  margin-bottom: 0;
+}
+.bottom-container a{
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+
+  color: #11999e;
+}
+
+.copyright {
+  background-color: #66bfbf;
+  margin: 0 auto 0;
+  color: #eaf6f6;
+  font-size: 1.4rem;
+  padding: 20px 0;
+}
